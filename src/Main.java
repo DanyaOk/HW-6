@@ -36,7 +36,7 @@ for (int i=1904; i<2096; i = i + 4 ) {
 int cash1=29000;
 int total1=0;
 for ( int i=0; i<12; i++ ) {
-    total1=total1+total/100;
+    total1=total1+total1/100;
     total1=total1+cash1;
     {
         System.out.println( "Месяц "+i+ ", сумма накоплений равна "+ total1+" рублей");
@@ -45,8 +45,9 @@ for ( int i=0; i<12; i++ ) {
 
     }
 
-  for ( int k=2; k<=20; k =k+2 ) {
-        System.out.println(k);
+int number=2;
+  for ( int k=1; k<=10 ; k++ ) {
+        System.out.println(number+" X "+k+ " = " + number*k);
 
   }
 
